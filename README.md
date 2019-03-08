@@ -1,8 +1,8 @@
 Read Email
 
-## Install
+## Install from composer
 ```
-composer install
+composer require tdhungit/php-jemails
 ```
 
 ## Config

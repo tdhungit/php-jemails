@@ -1,0 +1,21 @@
+{
+    "name": "tdhungit/php-jemails",
+    "description": "Read Email",
+    "authors": [
+        {
+            "name": "Jacky Tran",
+            "email": "tdhungit@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-imap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPJEmails\\Libraries\\": "src/Libraries/",
+            "PHPJEmails\\Config\\": "src/Config/"
+        }
+    }
+}
